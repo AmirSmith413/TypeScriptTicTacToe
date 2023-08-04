@@ -12,9 +12,9 @@ function Board() {
     }
     const nextSquares = squares.slice();
     if (xIsNext) {
-      nextSquares[i] = "X";
+      nextSquares[i] = "Denji";
     } else {
-      nextSquares[i] = "O";
+      nextSquares[i] = "Power";
     }
    setSquares(nextSquares)
    setXIsNext(!xIsNext)
@@ -45,7 +45,7 @@ function Board() {
   if (winner) {
     status = "Winner: " + winner;
   } else {
-    status = "Next player: " + (xIsNext ? "X" : "O");
+    status = "Next player: " + (xIsNext ? "Denji" : "Power");
   }
 
   return (
