@@ -1,35 +1,40 @@
-.square{
+.square {
   margin-left: 5px;
   background: #ffffff43;
   border: 1px solid #999999a1;
-  
+
   font-size: 24px;
   font-weight: bold;
   line-height: 180px;
   height: 180px;
-  
+
   padding: 0;
   text-align: center;
   width: 180px;
-
 }
-.Power{
+.Power {
   height: 180px;
-  width:180px;
+  width: 180px;
 }
-.Denji{
+.Denji {
   height: 180px;
-  width:180px;
+  width: 180px;
 }
-body{
+body {
   background-image: url(/src/images/chainsaw1.png);
   display: flex;
   justify-content: center;
   background-size: cover;
 }
-.status{
+.status {
   justify-content: center;
   display: flex;
   font-size: 50px;
   font-family: fantasy;
+}
+h1 {
+  font-family: fantasy;
+  justify-content: center;
+  font-size: 40px;
+  display: flex;
 }
